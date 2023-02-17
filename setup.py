@@ -31,8 +31,7 @@ import titus.version
 # python setup.py install --home=~
 LONG_DESCRIPTION = open(path.join(path.dirname(__file__), 'README.md')).read()
 
-requires = ["numpy==1.14.0; python_version < '3.6'",
-            "numpy>=1.15.0, <1.20; python_version >= '3.6'", 
+requires = ["numpy; python_version >= '3.6'", 
             "avro-python3>=1.8.2", 
             "ply>=3.11", 
             "pyyaml>=5.1.2", 
