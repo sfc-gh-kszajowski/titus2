@@ -58,7 +58,7 @@ $ pip install titus2
 
 or you can directly install the latest build from github repository via 
 ```sh
-$ pip install git+https://github.com/animator/titus2.git
+$ pip install git+https://github.com/sfc-gh-kszajowski/titus2
 ```
 
 After installation please run the following elementary example in python
